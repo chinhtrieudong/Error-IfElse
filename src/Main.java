@@ -8,7 +8,7 @@ public class Main {
         System.out.print("Vui lòng nhập tuổi của bạn: ");
         int age = scanner.nextInt();
 
-        if (age >= 18) {
+        if (age <= 18) {
             System.out.println("Bạn đủ tuổi trưởng thành.");
         } else {
             System.out.println("Bạn chưa đủ tuổi trưởng thành.");
